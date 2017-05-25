@@ -30,6 +30,7 @@
 		DDA306F61ED6E55B00F59E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDA306F91ED6E55B00F59E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDA306FB1ED6E55B00F59E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA307021ED6EC8000F59E11 /* WEDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WEDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		DDA306E91ED6E55B00F59E11 /* WeexExample */ = {
 			isa = PBXGroup;
 			children = (
+				DDA307011ED6EC4D00F59E11 /* Helper */,
 				DDA306ED1ED6E55B00F59E11 /* AppDelegate.h */,
 				DDA306EE1ED6E55B00F59E11 /* AppDelegate.m */,
 				DDA306F01ED6E55B00F59E11 /* ViewController.h */,
@@ -101,6 +103,14 @@
 				DDA306EB1ED6E55B00F59E11 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDA307011ED6EC4D00F59E11 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DDA307021ED6EC8000F59E11 /* WEDefine.h */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,6 +396,7 @@
 				DDA307001ED6E55B00F59E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
