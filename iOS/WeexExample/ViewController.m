@@ -21,7 +21,7 @@
 @implementation ViewController
 
 // 将其IP地址设为你本机地址
-static NSString *const WEIP = @"http://192.168.3.132";
+static NSString *const WEIP = @"http://192.168.3.132:8080";
 
 - (void)viewDidLoad {
     
