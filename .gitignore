@@ -45,5 +45,3 @@ android/*/build/
 # Local configuration file (sdk path, etc)
 android/local.properties
 
-android
-ios
