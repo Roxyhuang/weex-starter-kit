@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BEE99DE10EFC5159342620C /* libPods-WeexExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C821D77A7D7EE391C5AD62 /* libPods-WeexExample.a */; };
 		DDA306EC1ED6E55B00F59E11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA306EB1ED6E55B00F59E11 /* main.m */; };
 		DDA306EF1ED6E55B00F59E11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA306EE1ED6E55B00F59E11 /* AppDelegate.m */; };
 		DDA306F21ED6E55B00F59E11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA306F11ED6E55B00F59E11 /* ViewController.m */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39C821D77A7D7EE391C5AD62 /* libPods-WeexExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E4BAD6B47D7FC98AC31C1F /* Pods-WeexExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexExample/Pods-WeexExample.release.xcconfig"; sourceTree = "<group>"; };
+		BCE2C1A2A0520F57CD846A98 /* Pods-WeexExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexExample/Pods-WeexExample.debug.xcconfig"; sourceTree = "<group>"; };
 		DDA306E71ED6E55B00F59E11 /* WeexExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeexExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA306EB1ED6E55B00F59E11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDA306ED1ED6E55B00F59E11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEE99DE10EFC5159342620C /* libPods-WeexExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB0E0D4D619F3B8A00813119 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCE2C1A2A0520F57CD846A98 /* Pods-WeexExample.debug.xcconfig */,
+				91E4BAD6B47D7FC98AC31C1F /* Pods-WeexExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D81155C30459E65F341A4C5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39C821D77A7D7EE391C5AD62 /* libPods-WeexExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DDA306DE1ED6E55B00F59E11 = {
 			isa = PBXGroup;
 			children = (
 				DDA306E91ED6E55B00F59E11 /* WeexExample */,
 				DDA306E81ED6E55B00F59E11 /* Products */,
+				AB0E0D4D619F3B8A00813119 /* Pods */,
+				D81155C30459E65F341A4C5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDA306FE1ED6E55B00F59E11 /* Build configuration list for PBXNativeTarget "WeexExample" */;
 			buildPhases = (
+				C4818C0B4F3BEF4459010D53 /* [CP] Check Pods Manifest.lock */,
 				DDA306E31ED6E55B00F59E11 /* Sources */,
 				DDA306E41ED6E55B00F59E11 /* Frameworks */,
 				DDA306E51ED6E55B00F59E11 /* Resources */,
+				B3920922689EE27C08FE01E7 /* [CP] Embed Pods Frameworks */,
+				AB01E6F91E84953130164D5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB01E6F91E84953130164D5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexExample/Pods-WeexExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3920922689EE27C08FE01E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexExample/Pods-WeexExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4818C0B4F3BEF4459010D53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DDA306E31ED6E55B00F59E11 /* Sources */ = {
@@ -270,6 +345,7 @@
 		};
 		DDA306FF1ED6E55B00F59E11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE2C1A2A0520F57CD846A98 /* Pods-WeexExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeexExample/Info.plist;
@@ -281,6 +357,7 @@
 		};
 		DDA307001ED6E55B00F59E11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E4BAD6B47D7FC98AC31C1F /* Pods-WeexExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeexExample/Info.plist;
