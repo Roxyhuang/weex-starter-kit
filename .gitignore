@@ -56,6 +56,7 @@ android/local.properties
 !default.perspectivev3
 xcuserdata
 xcshareddata
+xcuserstate
 *.moved-aside
 DerivedData
 .idea/
