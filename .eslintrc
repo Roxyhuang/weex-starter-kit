@@ -5,14 +5,15 @@
     "sourceType": "module"
   },
   "globals": {
-    "Vue": false,
+    "Vue": false
   },
-  "extends": "standard",
+  "extends": "airbnb-base",
   "plugins": [
     "html"
   ],
   "rules": {
-    "arrow-parens": 0,
-    "generator-star-spacing": 0,
+    "no-underscore-dangle": [0],
+    "selector-pseudo-class-no-unknown": [0],
+    "no-undef": [0]
   }
 }
