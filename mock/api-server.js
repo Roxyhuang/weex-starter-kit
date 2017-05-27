@@ -1,11 +1,9 @@
 const express = require('express');
 const http = require('http');
 const app = express();
-const path = require('path');
-const fs = require('fs');
-const home = path.resolve('mock/data/home.json');
+const productList = require('./data/product.js');
 
-const resolveJson = name => JSON.parse(fs.readFileSync(name));
+const resolveJson = name => JSON.parse(name);
 
 const allowCrossDomain = (req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -18,7 +16,7 @@ const allowCrossDomain = (req, res, next) => {
 app.use(allowCrossDomain);
 
 app.post('/product/list', (req, res) => {
-    res.json(resolveJson(home));
+    res.json(resolveJson(productList));
 });
 
 const server = http.createServer(app);
