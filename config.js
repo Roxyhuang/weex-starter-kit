@@ -7,20 +7,20 @@ module.exports = {
   SESSION_TOKEN_KEY: 'sessionToken',
   server: {
     prod: {
-      bundleUrl: '',
-      apiUrl: '',
+      bundleUrl: '', // production javascript's bundle config
+      apiUrl: '', // production api config
     },
     qa: {
-      bundleUrl: '',
-      apiUrl: '',
+      bundleUrl: '',  // qa javascript's bundle config
+      apiUrl: '', // qa api config
     },
     dev: {
-      bundleUrl: '',
-      apiUrl: '',
+      bundleUrl: '', // dev javascript's bundle config
+      apiUrl: '', // dev api config
     },
     local: {
-      bundleUrl: `http://${process.env.CURRENT_IP}:8080`, // webpack动态获取
-      apiUrl: `http://${process.env.CURRENT_IP}:3000`,
+      bundleUrl: `http://${process.env.CURRENT_IP}:8080`, // local javascript's bundle config
+      apiUrl: `http://${process.env.CURRENT_IP}:3000`,// local api config
     },
   },
 };
