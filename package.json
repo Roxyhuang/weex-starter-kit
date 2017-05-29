@@ -16,7 +16,7 @@
     "build:dev": "node build/build.js --dev",
     "build:qa": "node build/build.js --qa",
     "build:prod": "node build/build.js --prod",
-    "serve": "node mock/api-server.js && serve -p 8080",
+    "serve": "node mock/api-server.js && serve -p 8081",
     "debug": "weex-devtool",
     "eslint": "eslint --ext .js --ext .vue src webpack.config.js",
     "clean": "rm -rf dist && mkdir -p dist",

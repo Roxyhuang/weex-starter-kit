@@ -15,12 +15,12 @@ module.exports = {
       apiUrl: '', // qa api config
     },
     dev: {
-      bundleUrl: '', // dev javascript's bundle config
-      apiUrl: '', // dev api config
+      bundleUrl: `http://${process.env.CURRENT_IP}:8080`, // dev javascript's bundle config
+      apiUrl: `http://${process.env.CURRENT_IP}:3000`, // dev api config
     },
     local: {
       bundleUrl: `http://${process.env.CURRENT_IP}:8080`, // local javascript's bundle config
-      apiUrl: `http://${process.env.CURRENT_IP}:3000`,// local api config
+      apiUrl: `http://${process.env.CURRENT_IP}:3000`, // local api config
     },
   },
 };
