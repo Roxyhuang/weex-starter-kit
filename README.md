@@ -1,16 +1,44 @@
-# weex-starter-kit
+# {{name}}
 
 > weex-starter-kit
 
-## getting start
+## Install Cli
 
 ```bash
-npm install
+npm install weex-starter-cli -g
 ```
+
+## getting start
+
+1.create directory
+
+```bash
+mkdir helloweex
+```
+
+2.checkout directory
+
+```bash
+cd helloweex
+```
+
+3.init project
+
+```bash
+weex-starter-cli
+```
+
+4.init iOS
+
+```bash
+need bundle exec pod install // pod install
+open project and run by Xcode // open project run project
+```
+
 
 ## file structure
 
-* `src/*`: all source code
+* `src/*`: all Vue's source code
 * `app.js`: entrance of the Weex page
 * `build/*`: some build scripts
 * `dist/*`: where places generated code
@@ -23,19 +51,18 @@ npm install
 ## npm scripts
 
 ```bash
-# build both two js bundles for Weex and Web
-npm run build
-
-# build the two js bundles and watch file changes
+# build in dev-server and run project
 npm run dev
 
-# start a Web server at 8080 port
+# build the js bundles for dev
+npm run build:dev
+
+# build the js bundles for qa
+npm run build:qa
+
+# build the js bundles for prod
+npm run build:prod
+
+# run api-server
 npm run serve
-
-# start weex-devtool for debugging with native
-npm run debug
 ```
-
-## notes
-
-You can config more babel, ESLint and PostCSS plugins in `webpack.config.js`.
