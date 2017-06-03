@@ -1,3 +1,4 @@
+// This is a config file of environment
 
 module.exports = {
   app: {

@@ -1,6 +1,6 @@
 # {{name}}
 
-> weex-starter-kit
+> weex-starter-kit is a tool that can quickly build weex projects
 
 ## Install Cli
 
