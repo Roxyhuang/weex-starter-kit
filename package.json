@@ -1,5 +1,7 @@
 {
+// If you don't want use cli can cancel two line
   "name": "{{name}}",
+//  "name": "weex-starter-kit",
   "description": "weex-starter-kit",
   "version": "0.1.0",
   "author": "Neo Huang",
