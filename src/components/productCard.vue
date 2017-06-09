@@ -1,22 +1,36 @@
 <template>
     <div class="container">
-        <image />
         <div>
-            <text>名字</text>
-            <text></text>
+            <text>{{item.name}}</text>
+            <text>{{item.company }}</text>
         </div>
     </div>
 </template>
 <script>
 
   export default {
-    data() {
-       return {
-       }
-    },
     props: {
+      item: {
+        type: Object,
+        default() {
+          return {
+            name: {
+              type: String,
+              default: () => '',
+            },
+            company: {
+              type: String,
+              default: () => '',
+            },
+            image: {
+              type: String,
+              default: () => '',
+            },
+          };
+        },
+      },
 
-    }
+    },
   };
 
 </script>
@@ -24,8 +38,12 @@
     .container {
        width:750px;
        background-color:#fff;
-       height:80px;
+       height:160px;
        font-size:14px;
        display:flex;
+       justify-content: center;
+       margin-bottom: 24px;
+       padding-left: 24px;
+       padding-right: 24px;
     }
 </style>

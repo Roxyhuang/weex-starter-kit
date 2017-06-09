@@ -1,7 +1,13 @@
 <template>
     <mainLayout backgroundColor="#f2f2f2">
         <navbar title="Weex's App"/>
-        <product-card/>
+        <list>
+            <template v-for="item in product">
+                <cell>
+                    <product-card :item="item"/>
+                </cell>
+            </template>
+        </list>
         <tabbar/>
     </mainLayout>
 </template>
@@ -19,10 +25,18 @@
       tabbar,
       productCard,
     },
+    data() {
+      return {
+        product: {
+
+        },
+      };
+    },
     beforeCreate() {
       Client.getProductList()
           .then((resp) => {
-            console.log(resp);
+            console.log(resp.data.product_list);
+            this.product = resp.data.product_list;
           })
           .catch((e) => {
             console.log(e);

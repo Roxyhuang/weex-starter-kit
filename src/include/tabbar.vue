@@ -1,7 +1,6 @@
 <template>
     <div class="tabbar">
         <div class="tabItem">
-            <image></image>
             <text>主页</text>
         </div>
         <div class="tabItem">
@@ -31,6 +30,9 @@
         box-shadow: #cccccc;
         background-color: #fff;
         height: 120px;
+        border-top-width: 1px;
+        border-top-color: #b2b2b2;
+        border-top-style: solid;
     }
     .tabItem {
         width: 250px;
@@ -40,5 +42,9 @@
         justify-content: center;
         align-items: center;
         align-content: center;
+    }
+    .tabIcon {
+        width: 70px;
+        height: 70px;
     }
 </style>

@@ -15,7 +15,7 @@ import java.util.Map;
 
 public class NetworkActivity extends AppCompatActivity implements IWXRenderListener {
 
-  private static String TEST_URL = "http://192.168.0.100:8080/dist/home.weex.js";
+  private static String TEST_URL = "http://192.168.3.132:8080/dist/home.weex.js";
   private WXSDKInstance mWXSDKInstance;
   private FrameLayout mContainer;
 

@@ -50,6 +50,59 @@
   </div>
 </template>
 
+<script>
+  import baseUtil from '../utils/BaseUtil';
+
+  export default {
+    props: {
+      dataRole: { default: 'none' },
+      // 导航条背景色
+      backgroundColor: { default: '#000' },
+      // 导航条高度
+      height: { default: 88 },
+      // 导航条标题
+      title: { default: '' },
+      // 导航条标题颜色
+      titleColor: { default: '#fff' },
+      // 右侧按钮图片
+      rightItemSrc: { default: '' },
+      // 右侧按钮标题
+      rightItemTitle: { default: '' },
+      // 右侧按钮标题颜色
+      rightItemColor: { default: '#fff' },
+      // 左侧按钮图片
+      leftItemSrc: { default: '' },
+      // 左侧按钮标题
+      leftItemTitle: { default: '' },
+      // 左侧按钮颜色
+      leftItemColor: { default: '#fff' },
+      // 返回按钮类型 1：bundle返回 2：route返回
+      canGoBack: { default: 0 },
+      webRef: { default: '' },
+      leftImgStyle: { default: '' },
+      rightImgStyle: { default: '' },
+      isRedirect: { default: false },
+    },
+    data() {
+      return {
+        platForm: weex.config.env.platform,
+      };
+    },
+    methods: {
+      clickRightItem() {
+        this.$emit('naviBarRightItemClick');
+      },
+      clickLeftItem() {
+        if (this.$router && this.$router.currentRoute.fullPath !== '/') {
+          this.$router.back();
+        } else {
+          baseUtil.back(this.canGoBack, this.webRef);
+        }
+      },
+    },
+  };
+</script>
+
 <style scoped>
   .navContainer {
     position: relative;
@@ -122,56 +175,3 @@
 
   }
 </style>
-
-<script>
-  import baseUtil from '../utils/BaseUtil';
-
-  export default {
-    props: {
-      dataRole: { default: 'none' },
-      // 导航条背景色
-      backgroundColor: { default: '#000' },
-      // 导航条高度
-      height: { default: 88 },
-      // 导航条标题
-      title: { default: '' },
-      // 导航条标题颜色
-      titleColor: { default: '#fff' },
-      // 右侧按钮图片
-      rightItemSrc: { default: '' },
-      // 右侧按钮标题
-      rightItemTitle: { default: '' },
-      // 右侧按钮标题颜色
-      rightItemColor: { default: '#fff' },
-      // 左侧按钮图片
-      leftItemSrc: { default: '' },
-      // 左侧按钮标题
-      leftItemTitle: { default: '' },
-      // 左侧按钮颜色
-      leftItemColor: { default: '#fff' },
-      // 返回按钮类型 1：bundle返回 2：route返回
-      canGoBack: { default: 0 },
-      webRef: { default: '' },
-      leftImgStyle: { default: '' },
-      rightImgStyle: { default: '' },
-      isRedirect: { default: false },
-    },
-    data() {
-      return {
-        platForm: weex.config.env.platform,
-      };
-    },
-    methods: {
-      clickRightItem() {
-        this.$emit('naviBarRightItemClick');
-      },
-      clickLeftItem() {
-        if (this.$router && this.$router.currentRoute.fullPath !== '/') {
-          this.$router.back();
-        } else {
-          baseUtil.back(this.canGoBack, this.webRef);
-        }
-      },
-    },
-  };
-</script>

@@ -2,112 +2,94 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/Neo/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.45/9346228ffdcd675f909726670afebe186b270314/fastjson-1.1.45.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="9346228ffdcd675f909726670afebe186b270314">
-        <dex dex="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/fastjson-1.1.45_edb32315ef5201dc8c78a2b5c8a9717da484fae6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_d2621da97da2bcd5c25712700a417d796938c2ab/classes.dex" />
+        <dex dex="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_e23e9a3326efd119dc5c1d4835362b4f3e5f0d5a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_a6365ba204da226f4c6d2ddc2b8d8ce36ba37fda/classes.dex" />
+        <dex dex="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_56fdaeea4548e6c564467e4213a064f570a878ac.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/neo/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.45/9346228ffdcd675f909726670afebe186b270314/fastjson-1.1.45.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_27202736ae56dde9cc054e58b36c2f6d0d1b864a/classes.dex" />
+        sha1="9346228ffdcd675f909726670afebe186b270314">
+        <dex dex="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/pre-dexed/debug/fastjson-1.1.45_be2c028b1f3189ad1e1298ad5f911f871304455a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d4e8b10e5e0951499bab191ffd8348fa141f31ab">
-        <dex dex="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7d99e97b91f8089404baa04ab7682073ee47de61/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_207a0bf46687dc1013c43e2e32c65e8fde7c1eda/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Neo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_3d4b1c223c4fa824b5170c11ab738e4876e29474/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.10.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="5c661d2cd2b4e0f3236d37b1e2b84b2b3a0a19f5">
-        <dex dex="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.taobao.android-weex_sdk-0.10.0_fa0eacd947814b653b222340ab3fb5da8fa0b675/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a76c6dfc778b94255dbe2946a412361a825b0d93">
-        <dex dex="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cc9142ccbf360a20225df43b143eea0a33958fdc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_1916c70bdce0e0a7681f1ccc88d8b5d282a9b593/classes.dex" />
+        <dex dex="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_43ac3d9398cb9e48fa2b3b99baaa79bba45a19e2.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_4fa02fd0798f21d2c27d6ebd8de4d6f016512e3d/classes.dex" />
+        <dex dex="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_50613247e0d2cfb598c4348323e52c3108845219.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_022456df7904c117c48736ecc49e40e91bd080d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Users/Neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_1b2ab78108642df15cd81eae43be7f647ed53cbf/classes.dex" />
+        <dex dex="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_0f8209a50c4dc51eb74da663055df470f226cdd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c661d2cd2b4e0f3236d37b1e2b84b2b3a0a19f5">
+        <dex dex="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_sdk-0.10.0_50a13fef80a897f4b44444bd6aab4da696bd8bdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/neo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_170d23baa89055fbe54f846cebc025bd63f3c75e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/neo/home/wwwroot/weex-starter-kit/android/WeexSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_7ddb7897c68ea99050e13ebf65889ee09b51ce4d.jar" />
     </item>
 
 </items>
